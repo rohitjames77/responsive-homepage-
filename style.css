@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.parent-div{
+    background-color: rgb(204, 119, 34);
+    height: 250px;
+    
+}
+.info-container{
+  position:relative;
+top: 3%;
+left: 10%;
+  height: 90%;
+  width: 80%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profile-img{
+max-height: 200px;
+max-width: 200px;
+margin-left: 40px;
+border-radius: 10%;
+z-index: 1;
+}
+.title{
+  z-index: 1;
+  color: white;
+  font-size: 14px;
+}
+
+.about-me-div{
+  z-index: 0;
+    background-color:rgb(209, 157, 105);
+position: absolute;
+top: 12%;
+left:23%;
+max-height: 200px;
+max-width: 600px;
+margin-left: 5px;
+border-radius: 0 15% 15% 0;
+}
