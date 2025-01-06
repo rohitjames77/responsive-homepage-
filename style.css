@@ -2,41 +2,53 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .parent-div{
     background-color: rgb(204, 119, 34);
-    height: 250px;
+    height: 30%;
     
 }
-.info-container{
+
+
+
+
+/* .info-container{
   position:relative;
 top: 3%;
 left: 10%;
   height: 90%;
   width: 80%;
-  /* border: 2px solid black; */
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 }
 .profile-img{
-max-height: 200px;
-max-width: 200px;
+max-height: 100%;
+max-width: 20%;
 margin-left: 40px;
 border-radius: 10%;
 z-index: 1;
 }
 .title{
-  z-index: 1;
+  position :relative;
+  left:7% ;
+  top: 89%;
+  z-index: 2;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
+margin: 0;
+padding:0;
+
 }
 
 .about-me-div{
   z-index: 0;
-    background-color:rgb(209, 157, 105);
+    background-color:rgb(223, 178, 133);
 position: absolute;
 top: 12%;
 left:23%;
@@ -44,4 +56,26 @@ max-height: 200px;
 max-width: 600px;
 margin-left: 5px;
 border-radius: 0 15% 15% 0;
+} */
+
+
+.works{
+height: 60%;
+border: 5px solid rgb(19, 3, 0);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
 }
+.card{
+  border: 2px solid red ;
+  width: ;
+}
+
+footer{
+  background-color:rgb(192, 104, 16) ;
+  height: 10%;
+}
+/* .footer-img {
+  max-height: 150px;
+} */
