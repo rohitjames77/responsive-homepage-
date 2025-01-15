@@ -44,7 +44,7 @@ width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.3rem;
+  font-size: 2.3rem; 9910701694
 }
 
 i{
@@ -57,6 +57,7 @@ i{
   left: 5rem;
 border: 2px solid blue;
 height: 70%;
+max-height: ;
 width: 80%;
 display: flex;
 flex-direction: column;
@@ -77,4 +78,8 @@ top:200% ;
   height: 40%;
   width: 100%;
   background-color: #7A4700;
+}
+
+@media (){
+
 }
